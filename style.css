@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --verde-escuro: #556b2f;
+    --verde-claro: #f4f7c5;
+    --branco: #ffffff;
+    --verde-oliva: #6b8e23;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--verde-oliva);
+    color: var(--branco);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.site-title {
+    cursor: pointer;
+}
+
+.navigation button {
+    background-color: var(--verde-escuro);
+    border: none;
+    color: var(--branco);
+    padding: 10px 20px;
+}
+
+.navigation button:hover {
+    background-color: var(--verde-oliva);
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+   background-color: var(--verde-oliva);
+   color: var(--branco);
+   padding: 10px;
+   text-align: center;
+}
+
+#escolha-planta {
+    background-color: var(--branco);
+    color: var(--verde-escuro);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--verde-escuro);
+}
+
+#escolha-planta option {
+    padding: 5px;
+}
+
+.calendario-especie h2 {
+    color: var(--verde-escuro);
+}
+
+.calendario-especie p {
+    color: var(--verde-oliva);
+}
